@@ -1,0 +1,3 @@
+本代码用于不同版本的数据库连接，稳定性尚不能保证
+使用前请调用MYSQLConnection的setConnection方法设置数据库用户名等信息
+调用远程主机MYSQL服务请调用MYSQLConnection的setHost方法，否则默认连接本地MYSQL数据库
